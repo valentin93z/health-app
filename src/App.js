@@ -1,9 +1,10 @@
 import React from 'react';
+import CaloriesCalculator from './Components/CaloriesCalculator';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <CaloriesCalculator />
     </div>
   );
 }

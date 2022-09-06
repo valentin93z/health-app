@@ -1,7 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
+import caloriesSlice from '../features/caloriesSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: "",
+    calories: caloriesSlice,
   },
 });
